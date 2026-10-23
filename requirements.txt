@@ -1,0 +1,6 @@
+# Direct dependencies; this prototype does not yet have a tested version lock.
+opencv-python
+numpy
+dlib
+ultralytics
+Pillow

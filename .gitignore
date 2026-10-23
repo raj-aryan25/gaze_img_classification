@@ -1,0 +1,32 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# External models and local backups (download separately; see README.md)
+*.pt
+*.pth
+*.onnx
+*.dat
+*.zip
+*.bz2
+runs/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
