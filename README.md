@@ -144,14 +144,12 @@ Eye-center coordinates shown in the interface are centers of landmark-defined ey
 
 ## Limitations and future work
 
-This is a coarse gaze-selection demonstration, rather than calibrated point-of-gaze tracking. The highest-confidence object in a region may differ from the user's intended object, particularly when several objects appear in the same half of the scene. Center gaze searches the full image, not a narrow center region.
-
 Lighting, face pose, glasses reflections, camera alignment, and fixed thresholds can affect gaze estimation. Blink detection provides a visual indication; it is not a selection-confirmation gesture or a selection lockout. Processing is synchronous, so interface responsiveness depends on inference speed. No measured accuracy, latency, or real-world grasping results are included.
 
 Further work could add per-user gaze calibration, stable dwell-based selection, explicit target confirmation, depth sensing, coordinate transforms into the arm's reference frame, and integration with the arm controller.
 
 ## Acknowledgments
 
-Built as the gaze-guided vision component of our SIH 2025 prosthetic-arm project.
+Built as the gaze-guided vision component of our SIH 2024 prosthetic-arm project.
 
 The implementation uses [OpenCV](https://opencv.org/), [dlib](https://dlib.net/), [Ultralytics](https://docs.ultralytics.com/), [NumPy](https://numpy.org/), [Pillow](https://python-pillow.org/), and Python's Tkinter. External libraries, datasets, and model weights retain their respective licenses and usage terms. In particular, dlib's landmark-model documentation identifies restrictions inherited from its training dataset.
