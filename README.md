@@ -1,6 +1,6 @@
 # Gaze-Guided Object Selection for a Prosthetic Arm
 
-A two-camera computer vision prototype developed as a component of our **Smart India Hackathon (SIH) 2025** prosthetic-arm project.
+A two-camera computer vision prototype developed as a component of our **Smart India Hackathon (SIH) 2024** prosthetic-arm project.
 
 The wider project aimed to let a user select an object by looking toward it through a glasses-based interface, so that a prosthetic arm could reach for and grasp it. This repository contains the vision component: it estimates the user's gaze direction, detects objects in the corresponding scene region, and displays a candidate target with its image coordinates.
 
